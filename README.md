@@ -1,4 +1,4 @@
-leonardosalles.github.io
+leonardosalles.com
 ========================
 
-Personal Website
+My personal Website/Blog
