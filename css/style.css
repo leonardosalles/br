@@ -1058,19 +1058,17 @@ textarea {
 	.item img{
 		height: 192px;
 	}
+	.social_icons {
+		display: none;
+	}
+	
 	.social_footer {
 		width: 70%;
 		text-align: center;
 		margin-top: 15px;
 		display: block !important;
 	}
-	.social_icons {
-		display: none;
-	}
 
-	.social_icons_footer{
-        	display: block !important;
-	}
 }
 
 /* -----------------------------------------
@@ -1094,21 +1092,4 @@ a{
 ----------------------------------------- */
 .social_footer {
 	display: none;
-}
-
-.social_footer .social_icons {
-	margin: 2px auto;
-        line-height: 1.4;
-}
-
-.social_footer .social_icons li {
-	display: inline;
-        text-align: center;
-}
-
-.social_icons_footer{
-        margin: 11px 15px 0 0;
-}
-.social_icons_footer li{
-        margin: 0 5px;
 }
