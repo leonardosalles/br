@@ -1065,7 +1065,11 @@ textarea {
 		width: 100%;
 		text-align: center;
 		margin-top: 15px;
-		display: block;
+		display: block !important;
+	}
+	
+	.social_icons .force {
+		display: block !important;
 	}
 }
 
