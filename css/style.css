@@ -1083,8 +1083,25 @@ a{
    12. SOCIAL RESPONSIVE FOOTER
 ----------------------------------------- */
 .social_footer {
-	width: 600px;
-        text-align: center;
+	display: none;
+}
+
+@media (max-width: 480px) { 
+	.social_footer {
+		width: 100%;
+		text-align: center;
+		margin-top: 15px;
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+	.social_footer {
+		width: 100%;
+		text-align: center;
+		margin-top: 15px;
+		display: block;
+	}
 }
 
 .social_footer .social_icons {
