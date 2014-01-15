@@ -1,21 +1,3 @@
-/*------------------------------------------------------
-style.css file overview: 
-
-		1. GENERAL STYLES
-		2. LAYOUT
-		3. TYPOGRAPHY
-		4. NAVIGATION 
-		5. PROFILE SECTION
-		6. ABOUT SECTION
-		7. RESUME SECTION
-		8. PORTFOLIO SECION
-		9. CONTACT SECTION
-		10. RESPONSIVE MEDIA QUERIES
-		11. BROWSER FIXES
-	
----------------------------------------------------------*/
-
-
 /* -----------------------------------------
    1. GENERAL STYLES
 ----------------------------------------- */
@@ -1094,6 +1076,6 @@ a{
 	display: none;
 }
 
-.social_footer_icons li {
+.social_footer_icons li a {
 	margin-right: 10px;
 }
