@@ -1078,3 +1078,21 @@ a{
 .lt-ie9 .section_box{
 	margin-bottom: 20px;
 }
+
+/* -----------------------------------------
+   12. SOCIAL RESPONSIVE FOOTER
+----------------------------------------- */
+.social_footer {
+	width: 600px;
+        text-align: center;
+}
+
+.social_footer .social_icons {
+	margin: 2px auto;
+        line-height: 1.4;
+}
+
+.social_footer .social_icons li {
+	display: inline;
+        text-align: center;
+}
