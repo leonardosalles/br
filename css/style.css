@@ -1093,3 +1093,7 @@ a{
 .social_footer {
 	display: none;
 }
+
+.social_footer_icons li {
+	margin-right: 10px;
+}
