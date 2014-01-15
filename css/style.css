@@ -1064,8 +1064,10 @@ textarea {
 		margin-top: 15px;
 		display: block !important;
 	}
-	
-	.social_icons .force {
+	.social_icons {
+		display: none;
+	}
+	.social_footer .social_icons .force {
 		display: block !important;
 	}
 }
