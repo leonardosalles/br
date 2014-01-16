@@ -1045,7 +1045,7 @@ textarea {
 	}
 	
 	.social_footer {
-		width: 70%;
+		width: 100%;
 		text-align: center;
 		margin-top: 15px;
 		display: block !important;
@@ -1078,4 +1078,11 @@ a{
 
 .social_footer_icons li a {
 	margin-right: 10px;
+}
+
+.social_footer_icons ul {
+	margin: auto;
+	display: inline-block;
+	width: 168px;
+	padding-left: 12px;
 }
