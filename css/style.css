@@ -1076,13 +1076,15 @@ a{
 	display: none;
 }
 
-.social_footer_icons li a {
-	margin-right: 10px;
-}
 
-.social_footer_icons ul {
+.social_footer ul {
 	margin: auto;
 	display: inline-block;
 	width: 168px;
 	padding-left: 12px;
+}
+
+
+.social_footer_icons li a {
+	margin-right: 10px;
 }
