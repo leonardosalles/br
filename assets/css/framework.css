@@ -85,7 +85,7 @@
 	animation-name: bounceIn;
 }
 
-a.social						{ display:inline-block; width:78px; height:78px; line-height:78px; font-size:20px; text-align:center; background:rgba(0,0,0,0.6); color:#fff; margin:10px 1px; }
+a.social						{ display:inline-block; width:73px; height:73px; line-height:73px; font-size:20px; text-align:center; background:rgba(0,0,0,0.6); color:#fff; margin:10px 1px; }
 a.social.fa-github:hover 				{ background:#FFFFFF!important; color:#000!important; }
 a.social.fa-twitter:hover				{ background:#41b7d8!important; color:#fff!important; }
 a.social.fa-facebook:hover 				{ background:#3b5997!important; color:#fff!important; }
