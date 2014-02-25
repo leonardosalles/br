@@ -1209,3 +1209,14 @@ a.service:hover i {
 	margin-top: -42px;
 	margin-left: 49px;
 }
+
+
+.email-brand {
+	 color: #FFFFFF; 
+	 background: rgba(0,0,0, 0.6);
+}
+
+
+.email-brand:hover {
+	 background: rgba(240,112,87, 0.6);
+}
