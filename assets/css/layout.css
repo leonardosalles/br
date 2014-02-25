@@ -262,7 +262,7 @@ section .btn {
 #header .navbar-inverse {
 	border:0;
 	border-radius:0;
-	background:#0F1113;
+	background:#F07057;
 }
 	#header .navbar-inverse ul.nav {
 		margin-right:20px;
@@ -305,8 +305,8 @@ section .btn {
 	display:inline-block;
 	float:right;
 	font-size:26px;
-	background:#232428;
-	color:#ABA798;
+	background:#F44D2D;
+	color:#FFFFFF;
 	right:0;
 	top:0;
 	bottom:0;
