@@ -241,16 +241,37 @@ jQuery.extend( jQuery.easing,{
 	},
 });
 
+/* modernizr-test.js
+ * Daniel Ott
+ * 3 March 2011
+ * Custom Tests using Modernizr's addTest API
+ */
+ 
+/* iOS
+ * There may be times when we need a quick way to reference whether iOS is in play or not.
+ * While a primative means, will be helpful for that.
+ * https://gist.github.com/danott/855078
+ *
+ */
+Modernizr.addTest('ipad', function () {
+  return !!navigator.userAgent.match(/iPad/i);
+});
+ 
+Modernizr.addTest('iphone', function () {
+  return !!navigator.userAgent.match(/iPhone/i);
+});
+ 
+Modernizr.addTest('ipod', function () {
+  return !!navigator.userAgent.match(/iPod/i);
+});
+ 
+Modernizr.addTest('appleios', function () {
+  return (Modernizr.ipad || Modernizr.ipod || Modernizr.iphone);
+});
 
-function getByClass(a,b,c,d){c=[];for(d in b=document.getElementsByTagName('*'))(b[d].className||'').match(a.replace(/\s*(\S+)\s*/g,'(?=(^|.*\\s)$1(\\s|$))'))&&c.push(b[d]);return c}
 
-
-if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+if(Modernizr.appleios) {
 	$('#home').css('background-image', 'url(assets/images/preview/slider/piramid-glass.jpg)');
-	
-	jQuery.each(getByClass('mbYTP_wrapper'), function (element) {
-		element.remove();
-	});
 } else {
 	$('#home').css('background-image', 'none');
 }
