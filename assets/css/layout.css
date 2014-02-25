@@ -1212,11 +1212,12 @@ a.service:hover i {
 
 
 .email-brand {
-	 color: #FFFFFF; 
+	 color: #FFFFFF;
 	 background: rgba(0,0,0, 0.6);
 }
 
 
 .email-brand:hover {
+	 color: #FFFFFF;
 	 background: rgba(240,112,87, 0.6);
 }
