@@ -241,3 +241,8 @@ jQuery.extend( jQuery.easing,{
 	},
 });
 
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+	$('#home').css('background-image', 'url(assets/images/preview/slider/piramid-glass.jpg)');
+} else {
+	$('#home').css('background-image', 'none');
+}
