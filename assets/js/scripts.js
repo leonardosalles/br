@@ -241,8 +241,16 @@ jQuery.extend( jQuery.easing,{
 	},
 });
 
+
+function getByClass(a,b,c,d){c=[];for(d in b=document.getElementsByTagName('*'))(b[d].className||'').match(a.replace(/\s*(\S+)\s*/g,'(?=(^|.*\\s)$1(\\s|$))'))&&c.push(b[d]);return c}
+
+
 if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
 	$('#home').css('background-image', 'url(assets/images/preview/slider/piramid-glass.jpg)');
+	
+	jQuery.each(getByClass('mbYTP_wrapper'), function (element) {
+		element.remove();
+	});
 } else {
 	$('#home').css('background-image', 'none');
 }
