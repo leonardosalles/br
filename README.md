@@ -1,4 +1,4 @@
 leonardosalles.com
 ========================
 
-My personal Website/Blog
+My personal Website
