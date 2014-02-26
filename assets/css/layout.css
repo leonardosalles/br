@@ -3,24 +3,10 @@ html, body {
 	overflow-x:hidden;
 }
 
-::-webkit-scrollbar {
-width: 10px;
-height: 10px;
-}
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment  {
-	display: none;
-}
-
-::-webkit-scrollbar-track-piece  {
-background-color: #3b3b3b;
-	-webkit-border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb:vertical {
-	-webkit-border-radius: 6px;
-	background: #F07057;
-}
+::-webkit-scrollbar { width: 8px;height: 8px; }
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment  { display: none; }
+::-webkit-scrollbar-track-piece { background-color: #3b3b3b; }
+::-webkit-scrollbar-thumb:vertical { border-radius: 6px;-o-border-radius: 6px;-moz-border-radius: 6px;-webkit-border-radius: 6px;background: #F07057; }
 
 .container {
 	position:relative;
