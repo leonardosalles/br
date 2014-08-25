@@ -5,8 +5,9 @@ html, body {
 
 ::-webkit-scrollbar { width: 8px;height: 8px; }
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment  { display: none; }
-::-webkit-scrollbar-track-piece { background-color: #65C1DC; }
+::-webkit-scrollbar-track-piece { background-color: #3b3b3b; }
 ::-webkit-scrollbar-thumb:vertical { background: #65C1DC; }
+
 
 .container {
 	position:relative;
@@ -293,7 +294,7 @@ section .btn {
 	display:inline-block;
 	float:right;
 	font-size:26px;
-	background:#F44D2D;
+	background:#65C1DC;
 	color:#FFFFFF;
 	right:0;
 	top:0;
