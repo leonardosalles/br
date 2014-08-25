@@ -5,8 +5,8 @@ html, body {
 
 ::-webkit-scrollbar { width: 8px;height: 8px; }
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment  { display: none; }
-::-webkit-scrollbar-track-piece { background-color: #3b3b3b; }
-::-webkit-scrollbar-thumb:vertical { background: #F07057; }
+::-webkit-scrollbar-track-piece { background-color: #65C1DC; }
+::-webkit-scrollbar-thumb:vertical { background: #65C1DC; }
 
 .container {
 	position:relative;
@@ -250,7 +250,7 @@ section .btn {
 #header .navbar-inverse {
 	border:0;
 	border-radius:0;
-	background:#F07057;
+	background:#65C1DC;
 }
 	#header .navbar-inverse ul.nav {
 		margin-right:20px;
