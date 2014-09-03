@@ -451,18 +451,9 @@ section .btn {
 	}
 
 #home.video {
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-size: cover;
-	-webkit-background-position:center center;
-	-webkit-background-repeat:no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-position:center center;
-	-moz-background-repeat:no-repeat;
-	-moz-background-size: cover;
-	-o-background-position:center center;
-	-o-background-repeat:no-repeat;
-	-o-background-size: cover;
+	background-position: 770px;
+	background-repeat:no-repeat !important;
+	background-size: cover !important;
 }
 #video-volume {
 	bottom: 85px;
